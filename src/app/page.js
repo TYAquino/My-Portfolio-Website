@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import TechStacks from "./components/TechStacks";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutMe />
         <TechStacks />
         <Projects />
+        <Contact />
       </div>
     </main>
   );

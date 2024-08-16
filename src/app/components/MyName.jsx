@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Contact from "./Contact";
 
 const MyName = () => {
   return (

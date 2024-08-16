@@ -1,65 +1,30 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
-import NavLink from "./NavLink";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import MenuOverlay from "./MenuOverlay";
-
-const navLinks = [
-  {
-    title: "About Me",
-    path: "#about",
-  },
-  {
-    title: "Projects",
-    path: "#projects",
-  },
-  {
-    title: "Contact",
-    path: "#contact",
-  },
-];
+import React from "react";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const NavBar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
-
   return (
-    <nav className="fixed top-0 left-0 right-3 z-10 bg-[#0f0a17] bg-opacity-100">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="md:text-5xl text-2xl text-white font-semibold"
-        >
-          T a
+    <nav className="top-0 left-0 right-3 z-10 bg-[#0f0a17]">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-4">
+        <Link href={"/"} className="md:text-4xl text-4xl text-white">
+          Ta
         </Link>
-        <div className="mobile-menu block md:hidden">
-          {!navbarOpen ? (
-            <button
-              onClick={() => setNavbarOpen(true)}
-              className="text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white"
+        <div className="menu md:block md:w-auto" id="navbar">
+          <div className="flex p-4 md:p-0 md:flex-row md:space-x-4 mt-0">
+            <Link href="https://github.com/TYAquino" target="_blank">
+              <FaGithubSquare className="text-4xl" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/trishaaquino/"
+              target="_blank"
             >
-              <Bars3Icon className="h-5 w-5" />
-            </button>
-          ) : (
-            <button
-              onClick={() => setNavbarOpen(false)}
-              className="text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white"
-            >
-              <XMarkIcon className="h-5 w-5" />
-            </button>
-          )}
-        </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
-            {navLinks.map((link, index) => (
-              <li key={index}>
-                <NavLink href={link.path} title={link.title} />
-              </li>
-            ))}
-          </ul>
+              <FaLinkedin className="text-4xl" />
+            </Link>
+          </div>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );
 };
