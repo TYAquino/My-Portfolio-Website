@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import Contact from "./Contact";
+import { motion } from "framer-motion";
 
 const MyName = () => {
   return (
@@ -33,14 +33,26 @@ const MyName = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white text-white hover:scale-110 transition duration-300 ease-in-out cursor-pointer bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500">
-              Contact Me!
+            <button
+              onClick={() =>
+                window.scrollTo({
+                  top: document.body.scrollHeight,
+                  behavior: "smooth",
+                })
+              }
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white text-white hover:scale-110 transition duration-300 ease-in-out cursor-pointer bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500"
+            >
+              Contact Me
             </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 hover:scale-110 transition duration-300 ease-in-out cursor-pointer text-white mt-3">
+            <a
+              href="/assets/cv/TYAResume.pdf"
+              download="TYAResume.pdf"
+              className="inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 hover:scale-110 transition duration-300 ease-in-out cursor-pointer text-white mt-3"
+            >
               <span className="block bg-[#0f0a17] rounded-full px-5 py-2">
                 Download my CV
               </span>
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
