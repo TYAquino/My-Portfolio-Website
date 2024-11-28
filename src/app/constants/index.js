@@ -1,8 +1,3 @@
-// import Musikahan from "../assets/projects/Musikahan.jpg";
-// import Proj2 from "../assets/projects/proj-2.jpg";
-// import YetiApp from "../assets/projects/Yeti-App.jpg";
-// import YYCApp from "../assets/projects/YYC-App.jpg";
-
 export const PROJECTS = [
   {
     title: "Musikahan Mobile App",
@@ -22,7 +17,14 @@ export const PROJECTS = [
     image: "/images/Proj-2.jpg",
     description:
       "Implemented a database management-focused project in software analysis and design and object-oriented programming.",
-    technologies: ["C#", ".NET MAUI", "CSS", "HTML", "MariaDB", "HeidiSQL"],
+    technologies: [
+      "C# .NET MAUI",
+      "Blazor Hybrid App",
+      "CSS",
+      "HTML",
+      "MariaDB",
+      "HeidiSQL",
+    ],
   },
   {
     title: "YYC Scan (YYC Hacks 2024, 1st Place)",

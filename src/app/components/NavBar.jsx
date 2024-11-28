@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -21,6 +22,12 @@ const NavBar = () => {
               target="_blank"
             >
               <FaLinkedin className="text-4xl" />
+            </Link>
+            <Link
+              href="https://www.instagram.com/leakissha/?hl=en"
+              target="_blank"
+            >
+              <FaInstagram className="text-4xl" />
             </Link>
           </div>
         </div>
