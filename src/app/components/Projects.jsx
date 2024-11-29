@@ -1,12 +1,17 @@
 "use client";
 import { PROJECTS } from "../constants";
 import ImgModal from "./ImgModal";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Projects = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const handleImageClick = (image, title) => {
     setSelectedImage({ image, title });
@@ -15,6 +20,9 @@ const Projects = () => {
   const closeModal = () => {
     setSelectedImage(null);
   };
+
+  if (!isClient) return null;
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2

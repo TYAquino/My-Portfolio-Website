@@ -3,6 +3,15 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
+const handleScroll = () => {
+  if (typeof window !== "undefined") {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  }
+};
+
 const MyName = () => {
   return (
     <section>
@@ -12,7 +21,7 @@ const MyName = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hey there, I&apos;m{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Trisha Aquino",
@@ -27,20 +36,16 @@ const MyName = () => {
               wrapper="span"
               speed={15}
               repeat={Infinity}
-            />
+              preRenderFirstString
+            />{" "}
           </h1>
-          <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Welcome! I&apos;m Trisha Yvonne Aquino, a software and web developer
+          <span className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
+            Welcome! I&apos;m Trisha Yvonne Aquino, a software and IT wannabe
             based in Calgary, AB, with experience in multimedia arts.
-          </p>
+          </span>
           <div>
             <button
-              onClick={() =>
-                window.scrollTo({
-                  top: document.body.scrollHeight,
-                  behavior: "smooth",
-                })
-              }
+              onClick={handleScroll}
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white text-white hover:scale-110 transition duration-300 ease-in-out cursor-pointer bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500"
             >
               Contact Me

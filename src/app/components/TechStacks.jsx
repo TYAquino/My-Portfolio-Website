@@ -2,14 +2,10 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { AiOutlinePython } from "react-icons/ai";
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaGithub, FaFigma } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiMysql } from "react-icons/si";
-import { FaFigma } from "react-icons/fa";
-import { IoLogoFirebase } from "react-icons/io5";
-import { FaGithub } from "react-icons/fa";
-import { SiCsharp } from "react-icons/si";
+import { SiMysql, SiCsharp } from "react-icons/si";
+import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({

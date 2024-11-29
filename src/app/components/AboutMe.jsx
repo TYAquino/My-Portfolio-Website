@@ -40,7 +40,7 @@ const AboutMe = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-4xl font-bold text-white mb-4">This is Me</h2>
-          <p className="text-base lg:text-lg text-neutral-400">
+          <span className="text-base lg:text-lg text-neutral-400">
             I am an enthusiastic and versatile software developer who&apos;s
             still learning IT. Passionate about building innovative and
             efficient solutions. I have worked with a variety of technologies.
@@ -55,7 +55,7 @@ const AboutMe = () => {
             challenges to deliver high-quality solutions. Outside of
             programming, I LOVE sleeping and playing video games like
             Reverse1999 and Life is Strange series ✨.
-          </p>
+          </span>
         </motion.div>
       </div>
     </section>
