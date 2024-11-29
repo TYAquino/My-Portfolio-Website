@@ -46,7 +46,7 @@ const MyName = () => {
               Contact Me
             </button>
             <a
-              href="/assets/cv/TYAResume.pdf"
+              href="/assets/cv/TYAquinoResume.pdf"
               download="TYAquinoResume.pdf"
               className="inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 hover:scale-110 transition duration-300 ease-in-out cursor-pointer text-white mt-3"
             >
