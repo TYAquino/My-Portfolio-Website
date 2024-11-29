@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ImageModal = ({ image, title, onClose }) => {
   return (
@@ -10,7 +11,16 @@ const ImageModal = ({ image, title, onClose }) => {
         className="bg-neutral-300 rounded shadow-lg max-w-3xl max-h-[90vh] overflow-auto"
         onClick={(e) => e.stopPropagation()}
       >
-        <img src={image} alt={title} className="w-full h-auto max-h-[65vh]" />
+        <div className="relative w-full h-auto max-h-[65vh]">
+          <Image
+            src={image}
+            alt={title}
+            layout="responsive"
+            width={800}
+            height={600}
+            className="w-full h-auto max-h-[65vh]"
+          />
+        </div>
       </div>
     </div>
   );

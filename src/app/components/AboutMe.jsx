@@ -41,16 +41,16 @@ const AboutMe = () => {
         >
           <h2 className="text-4xl font-bold text-white mb-4">This is Me</h2>
           <p className="text-base lg:text-lg text-neutral-400">
-            I am an enthusiastic and versatile software developer who's still
-            learning IT. Passionate about building innovative and efficient
-            solutions. I have worked with a variety of technologies.
+            I am an enthusiastic and versatile software developer who&apos;s
+            still learning IT. Passionate about building innovative and
+            efficient solutions. I have worked with a variety of technologies.
             <br /> My adventures in software/web development began back in high
             school. We would have exam tests where we had to memorize two whole
-            pages of hardcopy code and type it in Notepad++ and sometimes, we’d
-            have performance tasks where we had to integrate code where we
-            successfully moved a sprite. It was so scary for me that it gave me
-            Stockholm syndrome (which is probably the reason why I’m pursuing it
-            today 😀🤙).
+            pages of hardcopy code and type it in Notepad++ and sometimes,
+            we&apos;d have performance tasks where we had to integrate code
+            where we successfully moved a sprite. It was so scary for me that it
+            gave me Stockholm syndrome (which is probably the reason why
+            I&apos;m pursuing it today 😀🤙).
             <br /> I thrive in collaborative environments and enjoy solving new
             challenges to deliver high-quality solutions. Outside of
             programming, I LOVE sleeping and playing video games like

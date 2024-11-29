@@ -3,6 +3,7 @@ import { PROJECTS } from "../constants";
 import ImgModal from "./ImgModal";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Projects = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -33,7 +34,7 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
+              <Image
                 src={project.image}
                 width={200}
                 height={200}

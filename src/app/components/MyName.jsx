@@ -30,7 +30,7 @@ const MyName = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6 text-base">
-            Welcome! I’m Trisha Yvonne Aquino, a software and web developer
+            Welcome! I&apos;m Trisha Yvonne Aquino, a software and web developer
             based in Calgary, AB, with experience in multimedia arts.
           </p>
           <div>
