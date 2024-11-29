@@ -6,11 +6,11 @@ import { TypeAnimation } from "react-type-animation";
 const MyName = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12 border-b border-neutral-900 xl:px-11 pb-[15vh]">
+      <div className="grid grid-cols-1 sm:grid-cols-12 border-b border-neutral-900 xl:px-11 pb-[15vh] pt-10">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hey there, I'm{" "}
+              Hey there, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -29,7 +29,7 @@ const MyName = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6 text-base">
+          <p className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
             Welcome! I&apos;m Trisha Yvonne Aquino, a software and web developer
             based in Calgary, AB, with experience in multimedia arts.
           </p>
@@ -56,7 +56,7 @@ const MyName = () => {
             </a>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        <div className="col-span-5 place-self-center mt-12 sm:mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
             <Image
               src="/images/mee.png"

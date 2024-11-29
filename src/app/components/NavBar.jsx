@@ -1,16 +1,14 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <nav className="top-0 left-0 right-3 z-10 bg-[#0f0a17]">
+    <nav className="top-0 left-0 right-0 z-10 bg-[#0f0a17] fixed w-full">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-4">
         <Link href={"/"} className="md:text-4xl text-4xl text-white">
-          Ta
+          TYA
         </Link>
         <div className="menu md:block md:w-auto" id="navbar">
           <div className="flex p-4 md:p-0 md:flex-row md:space-x-4 mt-0">
