@@ -7,9 +7,9 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#0f0a17]">
+    <main className="flex min-h-screen flex-col bg-[#0f0a17] overflow-x-hidden">
       <NavBar />
-      <div className="container mx-auto px-12 mt-20">
+      <div className="container mx-auto px-4 md:px-12 mt-20 max-w-full">
         <MyName />
         <AboutMe />
         <TechStacks />
