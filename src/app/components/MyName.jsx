@@ -28,8 +28,6 @@ const MyName = () => {
                 1000,
                 "a Software Developer",
                 1000,
-                "an IT person wannabe",
-                1000,
                 "an Artist",
                 1000,
               ]}
@@ -40,8 +38,8 @@ const MyName = () => {
             />{" "}
           </h1>
           <span className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Welcome! I&apos;m Trisha Yvonne Aquino, a software and IT wannabe
-            based in Calgary, AB, with experience in multimedia arts.
+            Welcome! I&apos;m Trisha Yvonne Aquino, a software developer and
+            artist based in Calgary, AB.
           </span>
           <div>
             <button
@@ -51,7 +49,7 @@ const MyName = () => {
               Contact Me
             </button>
             <a
-              href="/assets/cv/TYAquinoResume.pdf"
+              href="/assets/cv/TYAquino-Resume.pdf"
               download="TYAquinoResume.pdf"
               className="inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 hover:scale-110 transition duration-300 ease-in-out cursor-pointer text-white mt-3"
             >

@@ -1,11 +1,12 @@
 "use client";
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
 import { AiOutlinePython } from "react-icons/ai";
 import { FaHtml5, FaGithub, FaFigma } from "react-icons/fa";
+import { IoLogoNodejs } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiMysql, SiCsharp } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
+import { TbBrandCSharp } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -52,7 +53,7 @@ const TechStacks = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <IoLogoNodejs className="text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -68,7 +69,7 @@ const TechStacks = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiCsharp className="text-7xl text-purple-600" />
+          <TbBrandCSharp className="text-7xl text-purple-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -100,7 +101,7 @@ const TechStacks = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMysql className="text-7xl text-sky-500" />
+          <BsFiletypeSql className="text-7xl text-sky-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(4.5)}
