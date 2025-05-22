@@ -21,12 +21,6 @@ const NavBar = () => {
             >
               <FaLinkedin className="text-2xl md:text-4xl text-white" />
             </Link>
-            <Link
-              href="https://www.instagram.com/leakissha/?hl=en"
-              target="_blank"
-            >
-              <FaInstagram className="text-2xl md:text-4xl text-white" />
-            </Link>
           </div>
         </div>
       </div>

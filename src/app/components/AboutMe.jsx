@@ -39,22 +39,18 @@ const AboutMe = () => {
           initial={{ x: 100, opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <h2 className="text-4xl font-bold text-white mb-4">This is Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">This is Me ❤️</h2>
           <span className="text-base lg:text-lg text-neutral-400">
-            I am an enthusiastic and versatile software developer who&apos;s
-            still learning IT. Passionate about building innovative and
-            efficient solutions. I have worked with a variety of technologies.
-            <br /> My adventures in software/web development began back in high
-            school. We would have exam tests where we had to memorize two whole
-            pages of hardcopy code and type it in Notepad++ and sometimes,
-            we&apos;d have performance tasks where we had to integrate code
-            where we successfully moved a sprite. It was so scary for me that it
-            gave me Stockholm syndrome (which is probably the reason why
-            I&apos;m pursuing it today 😀🤙).
+            I'm an enthusiastic and versatile developer currently learning IT,
+            passionate about building efficient and creative solutions.
+            <br /> My adventures in technology began in high school. We would
+            have exams where we had to memorize two whole pages of hardcopy code
+            and type it on Notepad++ and build our own PCs. It was terrifying
+            yet fun, that's probably why I stuck with it.
             <br /> I thrive in collaborative environments and enjoy solving new
             challenges to deliver high-quality solutions. Outside of
             programming, I LOVE sleeping and playing video games like
-            Reverse1999 and Life is Strange series ✨.
+            Reverse1999 and Life is Strange series ✨
           </span>
         </motion.div>
       </div>

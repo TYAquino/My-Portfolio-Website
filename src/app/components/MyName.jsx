@@ -26,9 +26,11 @@ const MyName = () => {
               sequence={[
                 "Trisha Aquino",
                 1000,
-                "a Software Developer",
+                "a Jr IT Professional",
                 1000,
-                "an Artist",
+                "a Jr Software Developer",
+                1000,
+                "an aspiring Cybersecurity Professional",
                 1000,
               ]}
               wrapper="span"
@@ -38,8 +40,9 @@ const MyName = () => {
             />{" "}
           </h1>
           <span className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Welcome! I&apos;m Trisha Yvonne Aquino, a software developer and
-            artist based in Calgary, AB.
+            Salutations! I&apos;m Trisha Yvonne Aquino, a Jr IT Professional, a
+            Jr Software Developer, and an aspiring Cybersecurity Professional
+            based in Calgary, AB.
           </span>
           <div>
             <button
