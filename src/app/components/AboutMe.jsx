@@ -41,12 +41,12 @@ const AboutMe = () => {
         >
           <h2 className="text-4xl font-bold text-white mb-4">This is Me ❤️</h2>
           <span className="text-base lg:text-lg text-neutral-400">
-            I'm an enthusiastic and versatile developer currently learning IT,
-            passionate about building efficient and creative solutions.
+            I&apos;m an enthusiastic and versatile developer currently learning
+            IT, passionate about building efficient and creative solutions.
             <br /> My adventures in technology began in high school. We would
             have exams where we had to memorize two whole pages of hardcopy code
             and type it on Notepad++ and build our own PCs. It was terrifying
-            yet fun, that's probably why I stuck with it.
+            yet fun, that&apos;s probably why I stuck with it.
             <br /> I thrive in collaborative environments and enjoy solving new
             challenges to deliver high-quality solutions. Outside of
             programming, I LOVE sleeping and playing video games like

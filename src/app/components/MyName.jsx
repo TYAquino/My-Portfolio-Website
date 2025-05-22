@@ -24,7 +24,7 @@ const MyName = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "Trisha Aquino",
+                "Trisha Yvonne Aquino",
                 1000,
                 "a Jr IT Professional",
                 1000,
