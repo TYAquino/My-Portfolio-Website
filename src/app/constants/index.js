@@ -1,6 +1,7 @@
 export const PROJECTS = [
   {
     title: "EEFCI School Management System",
+    githubURL: "https://github.com/TrinaKeen/schoolmanagementsystem2.git",
     image: "/images/eefci.png",
     description:
       "A capstone project that built a school management system to organize student data, enrollment, and access control for a real-world client.",
@@ -12,7 +13,6 @@ export const PROJECTS = [
       "Node.js",
       "Git/GitHub",
     ],
-    githubURL: "https://github.com/TrinaKeen/schoolmanagementsystem2.git",
   },
   {
     title: "Software Analysis and Design Project",
@@ -30,6 +30,7 @@ export const PROJECTS = [
   },
   {
     title: "Musikahan Mobile App",
+    githubURL: "https://github.com/TYAquino/Musikahan-Mobile-App.git",
     image: "/images/Musikahan.jpg",
     description:
       "A fully functional mobile music app with features like user authentication, search, and streaming of music.",
@@ -40,10 +41,10 @@ export const PROJECTS = [
       "Firebase",
       "Figma",
     ],
-    githubURL: "https://github.com/TYAquino/Musikahan-Mobile-App.git",
   },
   {
     title: "Equipment Rentals System Management",
+    githubURL: "https://github.com/TYAquino/Equipment-Management-System.git",
     image: "/images/Proj-2.jpg",
     description:
       "Implemented a database management-focused project in software analysis and design and object-oriented programming.",
@@ -55,10 +56,10 @@ export const PROJECTS = [
       "MariaDB",
       "HeidiSQL",
     ],
-    githubURL: "https://github.com/TYAquino/Equipment-Management-System.git",
   },
   {
     title: "YYC Scan (YYC Hacks 2024, 1st Place)",
+    githubURL: "https://github.com/MalekMansour/YYC-SCAN.git",
     image: "/images/YYC-App.jpg",
     description:
       "A full-stack web application that uses QR codes and scans to assist visitors and newcomers in navigating what to do as soon as they arrive in Calgary.",
@@ -73,7 +74,6 @@ export const PROJECTS = [
       "JSON",
       "Figma",
     ],
-    githubURL: "https://github.com/MalekMansour/YYC-SCAN.git",
   },
   {
     title: "Tedi Community App (SAIT Hackathon 2023, 1st Place)",

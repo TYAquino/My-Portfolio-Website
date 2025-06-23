@@ -58,14 +58,18 @@ const Projects = () => {
               className="w-full max-w-md sm:max-w-lg md:max-w-lg lg:max-w-xl xl:max-w-2xl"
             >
               <h6 className="mb-2 font-semibold">
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  {project.title}
-                </a>
+                {project.githubURL ? (
+                  <a
+                    href={project.githubURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-purple-400 transition-colors"
+                  >
+                    {project.title}
+                  </a>
+                ) : (
+                  project.title
+                )}
               </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex flex-wrap gap-2">
