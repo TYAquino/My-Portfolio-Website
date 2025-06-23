@@ -42,7 +42,8 @@ const AboutMe = () => {
           <h2 className="text-4xl font-bold text-white mb-4">This is Me ❤️</h2>
           <span className="text-base lg:text-lg text-neutral-400">
             I&apos;m an enthusiastic and versatile developer currently learning
-            IT, passionate about building efficient and creative solutions.
+            IT and Analytics, passionate about building efficient and creative
+            solutions.
             <br /> My adventures in technology began in high school. We would
             have exams where we had to memorize two whole pages of hardcopy code
             and type it on Notepad++ and build our own PCs. It was terrifying

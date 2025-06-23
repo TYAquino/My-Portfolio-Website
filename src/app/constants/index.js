@@ -1,5 +1,34 @@
 export const PROJECTS = [
   {
+    title: "EEFCI School Management System",
+    image: "/images/eefci.png",
+    description:
+      "A capstone project that built a school management system to organize student data, enrollment, and access control for a real-world client.",
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "Prisma ORM",
+      "NeonDB",
+      "Node.js",
+      "Git/GitHub",
+    ],
+    githubURL: "https://github.com/TrinaKeen/schoolmanagementsystem2.git",
+  },
+  {
+    title: "Software Analysis and Design Project",
+    image: "/images/voov.png",
+    description:
+      "A pre-capstone project that outlined the software analysis and design of a web application for a real-world client, including user stories, use cases, and database schema.",
+    technologies: [
+      "Documentation",
+      "Figma",
+      "ERD Diagrams",
+      "UML Diagrams",
+      "Software Ideas Modeler (SIM)",
+    ],
+    githubURL: "",
+  },
+  {
     title: "Musikahan Mobile App",
     image: "/images/Musikahan.jpg",
     description:
@@ -11,6 +40,7 @@ export const PROJECTS = [
       "Firebase",
       "Figma",
     ],
+    githubURL: "https://github.com/TYAquino/Musikahan-Mobile-App.git",
   },
   {
     title: "Equipment Rentals System Management",
@@ -25,12 +55,13 @@ export const PROJECTS = [
       "MariaDB",
       "HeidiSQL",
     ],
+    githubURL: "https://github.com/TYAquino/Equipment-Management-System.git",
   },
   {
     title: "YYC Scan (YYC Hacks 2024, 1st Place)",
     image: "/images/YYC-App.jpg",
     description:
-      "Developed a full-stack web application using QR codes and scans to assist visitors and newcomers in navigating what to do as soon as they arrive in Calgary.",
+      "A full-stack web application that uses QR codes and scans to assist visitors and newcomers in navigating what to do as soon as they arrive in Calgary.",
     technologies: [
       "Python",
       "Flutter",
@@ -42,12 +73,13 @@ export const PROJECTS = [
       "JSON",
       "Figma",
     ],
+    githubURL: "https://github.com/MalekMansour/YYC-SCAN.git",
   },
   {
     title: "Tedi Community App (SAIT Hackathon 2023, 1st Place)",
     image: "/images/Yeti-App.jpg",
     description:
-      "Built a functional web application with SAIT's services available for both the students and its faculty.",
+      "A functional web application that has SAIT's services available for both the students and its faculty.",
     technologies: ["Python", "Flutter", "HTML", "CSS", "Figma"],
   },
 ];

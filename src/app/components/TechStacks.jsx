@@ -112,14 +112,6 @@ const TechStacks = () => {
           <FaFigma className="text-7xl text-violet-800" />
         </motion.div>
         <motion.div
-          variants={iconVariants(5.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <IoLogoFirebase className="text-7xl text-orange-700" />
-        </motion.div>
-        <motion.div
           variants={iconVariants(6.5)}
           initial="initial"
           animate="animate"

@@ -26,7 +26,7 @@ const MyName = () => {
               sequence={[
                 "Trisha Yvonne Aquino",
                 1000,
-                "a Jr IT Professional",
+                "a Jr Tech Professional",
                 1000,
                 "a Jr Software Developer",
                 1000,
@@ -40,8 +40,8 @@ const MyName = () => {
             />{" "}
           </h1>
           <span className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Salutations! I&apos;m Trisha Yvonne Aquino, a Jr IT Professional, a
-            Jr Software Developer, and an aspiring Cybersecurity Professional
+            Salutations! I&apos;m Trisha Yvonne Aquino, a Jr Tech Professional,
+            a Jr Software Developer, and an aspiring Cybersecurity Professional
             based in Calgary, AB.
           </span>
           <div>
@@ -52,7 +52,7 @@ const MyName = () => {
               Contact Me
             </button>
             <a
-              href="/assets/cv/TYAquino-Resume.pdf"
+              href="/assets/cv/TYAquino_Resume.pdf"
               download="TYAquino_Resume.pdf"
               className="inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 hover:scale-110 transition duration-300 ease-in-out cursor-pointer text-white mt-3"
             >
