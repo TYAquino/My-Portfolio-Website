@@ -26,7 +26,7 @@ export const PROJECTS = [
       "UML Diagrams",
       "Software Ideas Modeler (SIM)",
     ],
-    githubURL: "",
+    githubURL: "https://github.com/TYAquino/SAD-Documentation.git",
   },
   {
     title: "Musikahan Mobile App",
