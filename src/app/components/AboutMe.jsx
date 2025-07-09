@@ -49,9 +49,9 @@ const AboutMe = () => {
             and type it on Notepad++ and build our own PCs. It was terrifying
             yet fun, that&apos;s probably why I stuck with it.
             <br /> I thrive in collaborative environments and enjoy solving new
-            challenges to deliver high-quality solutions. Outside of
-            programming, I LOVE sleeping and playing video games like
-            Reverse1999 and Life is Strange series ✨
+            challenges to deliver high-quality solutions. Outside work, I LOVE
+            sleeping and playing video games like Reverse1999 and Life is
+            Strange series ✨
           </span>
         </motion.div>
       </div>

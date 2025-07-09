@@ -40,9 +40,8 @@ const MyName = () => {
             />{" "}
           </h1>
           <span className="text-[#ADB7BE] text-lg lg:text-xl mb-6">
-            Salutations! I&apos;m Trisha Yvonne Aquino, a Jr Tech Professional,
-            a Jr Software Developer, and an aspiring Cybersecurity Professional
-            based in Calgary, AB.
+            Salutations! I&apos;m Trisha Yvonne Aquino, an aspiring Jr Tech
+            Professional, a Jr Software Developer based in Calgary, AB.
           </span>
           <div>
             <button
